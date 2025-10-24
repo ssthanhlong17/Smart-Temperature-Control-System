@@ -1,1 +1,2 @@
 # Smart-Temperature-Control-System
+Hệ thống sử dụng ESP32 làm vi điều khiển chính, kết nối với cảm biến DHT11 để đo nhiệt độ và độ ẩm môi trường. Dữ liệu từ cảm biến được ESP32 đọc và xử lý, sau đó hiển thị lên web server nội bộ mà ESP32 tạo ra. Người dùng có thể truy cập địa chỉ IP của ESP32 trên trình duyệt để xem nhiệt độ, độ ẩm và trạng thái quạt theo thời gian thực, với trang web tự động làm mới mỗi 5 giây.
